@@ -7,7 +7,7 @@ sentencepiece  # Required for LLaMA tokenizer.
 numpy
 torch == 2.1.0
 transformers >= 4.34.0  # Required for Mistral.
-xformers == 0.0.24  # Required for Mistral.
+xformers == 0.0.23  # Required for Mistral.
 fastapi
 uvicorn[standard]
 pydantic < 2  # Required for OpenAI server.
